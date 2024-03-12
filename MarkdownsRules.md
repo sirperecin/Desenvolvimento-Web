@@ -13,6 +13,19 @@ As regras para definir os títulos que serão criados e organizados em um índic
 > [!NOTE]
 > É preciso ter um espaço entre o *#* e o *Título* para funcionar.
 
+---
+
+## Quebra de Linhas ➖
+
+É possível fazer uma quebra de linhas com qualquer uma das marcações abaixos
+```
+---
+___
+***
+```
+
+---
+
 ## Formatação de Texto 🛠️
 
 Regras para formatação de texto em MarkDown, podendo ser mesclado entre eles.
@@ -55,6 +68,8 @@ Seguindo o código e logo abaixo o resultado
   </tr>
 </table>
 
+---
+
 ## Referências e Códigos 📜
 
 As referências podem ser visualizadas com \>
@@ -91,7 +106,9 @@ Se precisar que mostre o código como linguagem específica para facilitar a lei
 </html>
 ```
 
-# Diagramas com Mermaid
+---
+
+## Diagramas com Mermaid
 
 É possível fazer um diagrama com Mermaid, ele interpreta o código e gera a visualização. o código funcionaria com a seguinte sintaxe:
 ```
@@ -113,3 +130,18 @@ graph TD;
   Ajustes-->Desenvolvimento;
   Testes--> Fim;
 ```
+Mais Diagramas em [Criação de Diagramas](https://docs.github.com/pt/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
+
+---
+
+## Referências de Cores 🎨
+
+É possível referenciar cores através de aspas invertidas \`, como por exemplo \`#FFFFFF\`
+É possível fazer com três tipos:
+```
+#RRGGBB
+rgb(R,G,B)
+hsl
+```
+
+O destino ficaria `#ffffff` ou `#0969DA`
