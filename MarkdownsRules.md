@@ -91,6 +91,20 @@ Se precisar que mostre o código como linguagem específica para facilitar a lei
 </html>
 ```
 
+# Diagramas com Mermaid
+
+É possível fazer um diagrama com Mermaid, ele interpreta o código e gera a visualização. o código funcionaria com a seguinte sintaxe:
+```
+graph TD;
+  Inicio-->Desenvolvimento;
+  Desenvolvimento-->Testes;
+  Desenvolvimento-->Ajustes;
+  Ajustes-->Desenvolvimento;
+  Testes--> Fim;
+``` 
+
+A visualização ficaria assim:
+
 ```mermaid
 graph TD;
   Inicio-->Desenvolvimento;
