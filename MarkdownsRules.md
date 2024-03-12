@@ -96,6 +96,6 @@ graph TD;
   Inicio-->Desenvolvimento;
   Desenvolvimento-->Testes;
   Desenvolvimento-->Ajustes;
-  Desenvolvimento-->Fim;
-  Ajustes--> Desenvolvimento
+  Ajustes-->Desenvolvimento;
+  Testes--> Fim;
 ```
