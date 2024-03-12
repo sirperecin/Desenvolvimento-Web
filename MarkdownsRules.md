@@ -38,6 +38,20 @@ Seguindo o código e logo abaixo o resultado
     <td><em>Itálico</em></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Tachado</td>
+    <td>~~</td>
+    <td>~~Tachado~~</td>
+    <td><strike>Tachado</strike></td>
+  </tr>
+  <tr>
+    <td>Subscrito</td>
+    <td>Entre tags sub e /sub</td>
+    <td><sub>Subscrito</sub></td>
+  </tr>
+  <tr>
+    <td>Sobrescrito</td>
+    <td>Entre tags sup e /sup</td>
+    <td><sup>Sobrescrito</sup></td>
   </tr>
 </table>
+
