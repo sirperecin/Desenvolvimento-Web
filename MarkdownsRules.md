@@ -55,7 +55,7 @@ Seguindo o código e logo abaixo o resultado
   </tr>
 </table>
 
-##Referências e Códigos 📜
+## Referências e Códigos 📜
 
 As referências podem ser visualizadas com \>
 >Este texto é referenciado.
@@ -89,4 +89,13 @@ Se precisar que mostre o código como linguagem específica para facilitar a lei
 <body>
 </body>
 </html>
+```
+
+```mermaid
+graph TD;
+  Inicio-->Desenvolvimento;
+  Desenvolvimento-->Testes;
+  Desenvolvimento-->Ajustes;
+  Desenvolvimento-->Fim;
+  Ajustes--> Desenvolvimento
 ```
