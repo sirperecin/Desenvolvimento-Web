@@ -55,3 +55,38 @@ Seguindo o código e logo abaixo o resultado
   </tr>
 </table>
 
+##Referências e Códigos
+
+As referências podem ser visualizadas com \>
+>Este texto é referenciado.
+
+Quanto maior o número de linhas com \>, maior a referência.
+
+### Citar Código
+
+Os códigos podem ser citados com o uso de \`, podendo estar na linha inteira ou apenas em parte do código.
+`Aqui o código fica na linha inteira`
+Assim podemos por apenas `parte do código` em meio a um texto.
+
+### Bloco de código
+
+Utilizando três vezes a acentuação \``` podemos criar um bloco de código, como um comentário em linguagem de programação.
+```
+Começamos o código assim
+E ele segue por diferentes linhas
+até fechar como desejado
+```
+
+### Bloco de Código com Linguagem Específica
+
+Se precisar que mostre o código como linguagem específica para facilitar a leitura, basta definir a linguagem após os \```HTML, por exemplo
+
+```html
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+```
