@@ -145,3 +145,6 @@ hsl
 ```
 
 O destino ficaria `#ffffff` ou `#0969DA`
+
+<span style="color:red">some **This is Red Bold.** text</span>
+<font color="red">Testing</font>
