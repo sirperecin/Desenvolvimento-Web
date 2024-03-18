@@ -2,6 +2,7 @@
 
 Esse arquivo tem como intuito armazenar as regras de formatação para arquivos .MD, para melhor documentação de todo o processo.
 
+
 ## Títulos 📄
 
 As regras para definir os títulos que serão criados e organizados em um índice automaticamente pelo GitHub são:
@@ -67,6 +68,16 @@ Seguindo o código e logo abaixo o resultado
     <td><sup>Sobrescrito</sup></td>
   </tr>
 </table>
+
+Com o \```diff pode-se também usar cores no código, exemplo:
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 ---
 
@@ -145,3 +156,6 @@ hsl
 ```
 
 O destino ficaria `#ffffff` ou `#0969DA`
+
+<span style="color:red">some **This is Red Bold.** text</span>
+<font color="red">Testing</font>
